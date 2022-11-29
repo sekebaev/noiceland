@@ -256,6 +256,8 @@ footer{
 }
 
 .input_but input{
+    outline: none;
+    border: none;
     text-transform: uppercase;
     line-height: 12px;
     letter-spacing: 1px;
@@ -266,6 +268,7 @@ footer{
 }
 
 .input_but button{
+    border: none;
     background-color: #000000;
     color: white;
     width: 79px;
@@ -317,6 +320,9 @@ footer{
 @media (max-width:968px) {
     .one{
         display: block;
+    }
+    .one .text{
+        padding-top: 10px;
     }
     .one .img{
         width: 100%;
